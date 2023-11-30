@@ -26,19 +26,9 @@ We'd deploy the API and then for the studio experience we'd have a new , cleaner
 
 multitenancy would center around oauth. maybe i use google oauth or sprign authorization server. probably easier to start with google. fewer moving parts. we could register new users dynamically this way. sign in with and u get a new account and multitenancy around thrat account. not sure how a user using oauth and google would then change their email address later on , though. 
 
+this api backend would expose feeds, eg, ATOM for content published (blogs, youtube videos, podcasts), as well as a read-only graphql api. so i could then build bootifulpodcast.fm, joshlong.com, springtipslive.io, etc., to talk to these feeds. 
 
 
 
 
 
-
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->

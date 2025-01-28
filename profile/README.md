@@ -4,16 +4,14 @@ I've got distributed, disconnected systems to help me do things like publish a p
 
 Could this be a chance to consolidate? Force as much as possible into one modular monolithic codebase using Spring Moduliths and GraalVM? 
 
-## considerations 
-
-
-
-
- 
-
+## considerations
 
 this api backend would expose feeds, eg, ATOM for content published (blogs, youtube videos, podcasts), as well as a read-only graphql api. so i could then build bootifulpodcast.fm, joshlong.com, springtipslive.io, etc., to talk to these feeds. 
 
+
+## features 
+
+starting in 2025, i'm going to try to track things that span both the backend and the frontend in the central `features` repositories.
 
 
 

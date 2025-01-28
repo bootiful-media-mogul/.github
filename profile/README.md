@@ -11,7 +11,9 @@ this api backend would expose feeds, eg, ATOM for content published (blogs, yout
 
 ## features 
 
-starting in 2025, i'm going to try to track things that span both the backend and the frontend in the central `features` repositories.
+starting in 2025, i'm going to try to track things - ["features"](https://github.com/bootiful-media-mogul/features) - that span both the backend and the frontend in the central `features` repositories, so i've created a central `features` repository. start large feature implementation tickets in there and link to sub-issues in the constituent repositories. 
+
+ideally, we'd converge on consistent labels there, too.
 
 
 
